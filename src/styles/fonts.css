@@ -1,0 +1,23 @@
+/* For optimization, I suggest using .woff2 font formats. 
+However, for testing purposes, I will adhere to the files you graciously provided. */
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter/static/Inter_24pt-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/assets/fonts/Cormorant/Cormorant-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/assets/fonts/Cormorant/Cormorant-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}

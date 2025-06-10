@@ -1,0 +1,19 @@
+@import url("./styles/fonts.css");
+@import url("./styles/colors.css");
+@import url("./styles/typography.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
