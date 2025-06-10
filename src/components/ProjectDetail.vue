@@ -12,14 +12,11 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Links from "./Links.vue";
+import type { Project } from "@/types/project"; // path corretto
 
-const props = defineProps({
-  project: {
-    type: Object,
-    required: false,
-    default: null,
-  },
-});
+defineProps<{
+  project: Project | null;
+}>();
 
 const emit = defineEmits(["close"]);
 const isClosing = ref(false);
